@@ -1,3 +1,5 @@
+//Reads the Data from DHT11 Temperature/Humidity Sensor which is connected to the NXP Microcontroller FRDM K64 and displays the data on a Serial Terminal (TeraTerm/Putty). The K64 board is connected to the PC through the USB which acts as a UART communication. The DHT Sensor is connected to the K64 board through a Grove Shield. The IDE used here was mbed online compiler.//
+
 #include "mbed.h"
 #include"DHT.h"
 DHT sensor(D4, DHT11); //sensor is a variable of class DHT. 
